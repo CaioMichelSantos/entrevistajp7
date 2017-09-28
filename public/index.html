@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="app">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>To do List</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/controllers/taskController.js"></script>
+</head>
+
+<body ng-controller="TaskController">
+	<div class="container">
+		<div class="jumbotron">
+
+			<form class="form-inline">
+				<div class="form-group">
+					<label for="newTask">New Task: </label>
+					<input type="text" ng-model="newTask.taskDescription" class="form-control" id="textDescription" placeholder="Task Description">
+				</div>
+				<button type="submit" ng-disabled="!newTask.taskDescription" ng-click="registerTask()" class="btn btn-default">Add</button>
+			</form>
+
+			<br/>
+			<br/>
+
+			<table class="table">
+
+				<tr ng-repeat="task in tasks">
+					<td>{{task.taskDescription}}</td>
+					<td><button class="btn btn-default" ng-click="removeTask(task.id)"> Remove </button></td>
+				</tr>
+			</table>
+			<div class="p-3 mb-2 bg-danger text-white" ng-if="error">Falha encontrada tente novamente ou contate um Adm caso persista erro: {{error}}</div>
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>
