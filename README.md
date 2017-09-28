@@ -5,11 +5,12 @@ Aplicação front and em angularJs 1, HTML e bootstrap.
 Utilização de json para comunicação com back and, utilizando metodo de requisição HTTP.
 Aplicação back and em Nodejs com Express.
 
-Utilizando Projeto Local.
+Utilizando Projeto Local, baixando diretorio
+git clone https://github.com/CaioMichelSantos/entrevistajp7.git
 
 Pre requisitos:
-Nodejs e Npm instalados.
-Git
+Nodejs, Npm e Git instalados.
+
 
 Entrando dentro da pasta do projeto, bastar dar o comando: npm install
 
