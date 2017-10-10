@@ -1,5 +1,4 @@
-# entrevistajp7
-Teste Solicitado pela empresa JP7
+# Teste
 
 Aplicação front and em angularJs 1, HTML e bootstrap.
 Utilização de json para comunicação com back and, utilizando metodo de requisição HTTP.
