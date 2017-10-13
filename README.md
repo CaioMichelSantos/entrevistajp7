@@ -5,7 +5,7 @@ Utilização de json para comunicação com back and, utilizando metodo de requi
 Aplicação back and em Nodejs com Express.
 
 Utilizando Projeto Local, baixando diretorio
-git clone https://github.com/CaioMichelSantos/entrevistajp7.git
+git clone https://github.com/CaioMichelSantos/taskApplication.git
 
 Pre requisitos:
 Nodejs, Npm e Git instalados.
