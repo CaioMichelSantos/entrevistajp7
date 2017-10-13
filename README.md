@@ -17,7 +17,6 @@ Para iniciar aplicação, basta dar o comando: npm start
 
 Pagina estara disponivel em http://localhost:3000/
 
-Obrigado pela atenção e oportunidade.
 
 
 
